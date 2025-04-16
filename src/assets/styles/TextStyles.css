@@ -1,0 +1,458 @@
+.h1 {
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.h2 {
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.h3 {
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.h4 {
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.h5 {
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.h6 {
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.p1 {
+    color: white;
+    text-transform: none;
+    margin: 0;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.p2 {
+    color: white;
+    text-transform: none;
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+.p3 {
+    color: white;
+    text-transform: none;
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.p4 {
+    color: white;
+    text-transform: none;
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+.p5 {
+    color: white;
+    text-transform: none;
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+.p6 {
+    color: white;
+    text-transform: none;
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+.p7 {
+    color: white;
+    text-transform: none;
+    margin: 0;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+.p8 {
+    color: white;
+    text-transform: none;
+    margin: 0;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+.Button1 {
+    color: white;
+    text-transform: none;
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+.Button2 {
+    color: white;
+    text-transform: none;
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+.text1{
+    color: #CACACF;
+}
+
+.text2{
+    color: #ABABAB;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn-class{
+    cursor: pointer;
+    background-color: initial;
+    border: initial;
+}
+
+.price {
+    color: #CACACF;
+    text-transform: none;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500; 
+    line-height: 1.3;
+}
+
+@media (max-width: 1439px) {
+    .h1-1440 {
+        color: white;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 46px;
+        font-weight: bold;
+        line-height: 1.3;
+    }
+    
+    .h2-1440 {
+        color: white;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+    
+    .h3-1440 {
+        color: white;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+    
+    .h4-1440 {
+        color: white;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.3;
+    }
+    
+    .h5-1440 {
+        color: white;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+    
+    .h6-1440 {
+        color: white;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+    
+    .p1-1440 {
+        color: white;
+        text-transform: none;
+        margin: 0;
+        font-size: 28px;
+        font-weight: normal;
+        line-height: 1.2;
+    }
+    
+    .p2-1440 {
+        color: white;
+        text-transform: none;
+        margin: 0;
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 1.4;
+    }
+    
+    .p3-1440 {
+        color: white;
+        text-transform: none;
+        margin: 0;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 1.4;
+    }
+    
+    .p4-1440 {
+        color: white;
+        text-transform: none;
+        margin: 0;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 1.3;
+    }
+    
+    .p5-1440 {
+        color: white;
+        text-transform: none;
+        margin: 0;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.3;
+    }
+    
+    .p6-1440 {
+        color: white;
+        text-transform: none;
+        margin: 0;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.3;
+    }
+    
+    .p7-1440 {
+        color: white;
+        text-transform: none;
+        margin: 0;
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 1.3;
+    }
+    
+    .p8-1440 {
+        color: white;
+        margin: 0;
+        font-size: 10px;
+        font-weight: normal;
+        line-height: 1.4;
+    }
+    .text1{
+        color: #CACACF;
+    }
+    
+    .text2{
+        color: #ABABAB;
+    }
+
+    .price {
+        color: #CACACF;
+        text-transform: none;
+        margin: 0;
+        font-size: 14px;
+        font-weight: 500; 
+        line-height: 1.3;
+    }
+}
+
+@media (max-width: 767px) {
+    .h1-768 {
+        color: white;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 46px;
+        font-weight: bold;
+        line-height: 1.3;
+    }
+    
+    .h2-768 {
+        color: white;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+    
+    .h3-768 {
+        color: white;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+    
+    .h4-768 {
+        color: white;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.3;
+    }
+    
+    .h5-768 {
+        color: white;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+    
+    .h6-768 {
+        color: white;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+    
+    .p1-768 {
+        color: white;
+        text-transform: none;
+        margin: 0;
+        font-size: 28px;
+        font-weight: normal;
+        line-height: 1.2;
+    }
+    
+    .p2-768 {
+        color: white;
+        text-transform: none;
+        margin: 0;
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 1.4;
+    }
+    
+    .p3-768 {
+        color: white;
+        text-transform: none;
+        margin: 0;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 1.4;
+    }
+    
+    .p4-768 {
+        color: white;
+        text-transform: none;
+        margin: 0;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 1.3;
+    }
+    
+    .p5-768 {
+        color: white;
+        text-transform: none;
+        margin: 0;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.3;
+    }
+    
+    .p6-768 {
+        color: white;
+        text-transform: none;
+        margin: 0;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.3;
+    }
+    
+    .p7-768 {
+        color: white;
+        text-transform: none;
+        margin: 0;
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 1.3;
+    }
+    
+    .p8-768 {
+        color: white;
+        text-transform: none;
+        margin: 0;
+        font-size: 10px;
+        font-weight: normal;
+        line-height: 1.4;
+    }
+    .text1{
+        color: #CACACF;
+    }
+    
+    .text2{
+        color: #ABABAB;
+    }
+
+    .price {
+        color: #CACACF;
+        text-transform: none;
+        margin: 0;
+        font-size: 14px;
+        font-weight: 500; 
+        line-height: 1.3;
+    }
+}
+
