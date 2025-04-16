@@ -1,0 +1,34 @@
+version:  '3.7'
+
+services:
+  node_yourtar-new_front:
+    container_name: node_yourtar-new_front
+    build:
+      dockerfile: ./docker/dockerfile/node/Dockerfile.prod
+      context: ../
+    restart: on-failure
+    env_file:
+      - ../.env
+    networks:
+      - demo
+    volumes:
+      - ../:/var/www/app/
+      - /var/www/app/node_modules
+
+  nginx_yourtar-new_front:
+    container_name: nginx_yourtar-new_front
+    image: nginx:latest
+    restart: on-failure
+    networks:
+      - demo
+    expose:
+      - "80"
+    volumes:
+      - ../:/var/www/app/
+      - /var/www/app/node_modules
+      - ./logs/nginx:/var/log/nginx
+      - ./config/nginx:/etc/nginx/conf.d
+
+networks:
+  demo:
+    external: true
