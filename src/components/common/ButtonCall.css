@@ -1,0 +1,21 @@
+.call-button {
+    color: #ABABAB;
+    font-size: 16px;
+    border: 1px solid #ABABAB;
+    border-radius: 30px;
+    background-color: initial;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.call-button:hover {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.call-button:active {
+    color: #ABABAB;
+    border: 1px solid #ABABAB;
+}

@@ -1,0 +1,207 @@
+.info-block-type-one {
+  background: #090918;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px 20px 20px 20px;
+  position: relative;
+  clip-path: inset(-1px round 20px);
+  box-sizing: border-box;
+}
+
+.info-block-type-one::before {
+  position: absolute;
+  content: '';
+  inset: -1px;
+  padding: 1px;
+  border-radius: 20px;
+  background: linear-gradient(300deg, #101038 0%, #2E2E9E 100%);
+  mask: linear-gradient(fff 0 0) content-box, linear-gradient(#090918 0 0);
+  -webkit-mask: linear-gradient(#090918 0 0) content-box, linear-gradient(#090918 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+}
+
+.de-info-block-one {
+  position: absolute;
+  width: 286px;
+  height: 286px;
+  filter: blur(30px);
+  bottom: -40%;
+  left: -30%;
+  z-index: -1;
+}
+
+.info-block-type-two {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: relative;
+  background: #090922;
+  border: 1px solid #101038;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  clip-path: inset(-1px round 20px);
+  box-sizing: border-box;
+}
+
+.info-block-type-img {
+  position: absolute;
+}
+
+.info-block-type-tree {
+  height: 100%;
+  padding: 20px;
+  position: relative;
+  background: #090922;
+  border: 1px solid #0D0D27;
+  border-radius: 20px;
+  clip-path: inset(-1px round 20px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.platforms-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 12px;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+}
+
+.platform-item {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border: 1px solid #CACACF;
+  border-radius: 14px;
+  background: transparent;
+}
+
+.platform-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.platform-label {
+  color: #CACACF;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.info-block-type-tree-platform {
+  width: 100%;
+}
+
+.icon-conteiner {
+  background-color: rgb(255, 122, 244);
+  width: 100%;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.infoblock-3-text-block {
+  color: white;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.main-icon {
+}
+
+.block-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 12px 0 0 0;
+}
+
+.block-description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 12px 0 0 0;
+}
+
+.button-container {
+  margin-top: auto;
+  height: 50px;
+  width: 100%;
+  border: 1px solid #1F1F94;
+}
+
+.info-block-type-four {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: #090922;
+  border: 1px solid #101038;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  clip-path: inset(-1px round 20px);
+  box-sizing: border-box;
+  gap: 10px;
+}
+
+.info-block-type-four-img {
+  margin: 10px 0 0 0;
+}
+
+.info-block-type-five {
+  background: #090918;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px 20px 20px 20px;
+  position: relative;
+  clip-path: inset(-1px round 20px);
+  box-sizing: border-box;
+}
+
+.info-block-type-five::before {
+  position: absolute;
+  content: '';
+  inset: -1px;
+  padding: 1px;
+  border-radius: 20px;
+  background: linear-gradient(300deg, #101038 70%, #2E2E9E 100%);
+  mask: linear-gradient(fff 0 0) content-box, linear-gradient(#090918 0 0);
+  -webkit-mask: linear-gradient(#090918 0 0) content-box, linear-gradient(#090918 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+}
+
+.info-block-type-six {
+  padding: 20px;
+  position: relative;
+  background: #090922;
+  border: 1px solid #101038;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  clip-path: inset(-1px round 20px);
+  box-sizing: border-box;
+}

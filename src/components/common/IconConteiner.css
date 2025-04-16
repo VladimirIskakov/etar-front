@@ -1,0 +1,43 @@
+.ellipse-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ellipse-container img:first-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.ellipse-container img:last-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.ellipse-decorative-element {
+  background: radial-gradient(ellipse, rgba(36, 36, 222, 0.35) 0%, rgba(9, 9, 24, 0.35) 100%);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  filter: blur(30px);
+}
+
+.ellipse-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  color: white;
+  font-weight: bold;
+}

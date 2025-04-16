@@ -1,0 +1,86 @@
+.portfolio-slider {
+    margin: 160px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.slider-over-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+
+.slider-container {
+    margin: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.slick-list {
+    height: 100%;
+}
+
+.slick-track {
+    display: flex;
+    height: 100%;
+}
+
+.slick-slide {
+    height: 100%;
+    display: flex;
+}
+
+.slick-slide > div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-arrows {
+    position: absolute;
+    right: 40px;
+    display: flex;
+    gap: 12px;
+    z-index: 1;
+}
+
+.slider-arrows > :nth-child(1) {
+    transform: scaleX(-1);
+}
+
+.slider-arrows-bottom {
+    margin: 12px 0 0 0;
+    display: none;
+    gap: 12px;
+    z-index: 1;
+}
+
+.landing-portfolio-slider-arrow {
+    position: absolute;
+    right: 0;
+    display: flex;
+    gap: 12px;
+    z-index: 1;
+}
+
+.landing-portfolio-slider-arrow > :nth-child(1) {
+    transform: scaleX(-1);
+}
+
+@media (max-width: 767px) {
+    .slider-arrows {
+        display: none;
+    }
+
+    .slider-arrows-bottom {
+        display: flex;
+    }
+
+    .slider-arrows-bottom :nth-child(1) {
+        transform: scaleX(-1);
+    }
+}

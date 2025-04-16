@@ -1,0 +1,70 @@
+.application-form{
+    margin: 160px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.application-form-block{
+    width: 663px;
+    height: 453px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 100px;
+    gap: 12px;
+}
+
+.application-form-block > :nth-child(2){
+    margin-bottom: 40px;
+}
+
+.application-form-btn{
+    height: 50px;
+    width: 100%;
+    z-index: 10;
+}
+
+.application-form-personal-data{
+    display: flex;
+}
+
+@media (max-width: 1439px) {
+    .application-form{
+        margin: 160px 0 0 0;
+    }
+
+    .application-form-block{
+        max-width: 663px;
+        width: 100%;
+        padding: 0 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .application-form{
+        margin: 140px 0 0 0;
+    }
+
+    .application-form-block{
+        align-items: start;
+        text-align: start;
+        max-width: 663px;
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .application-form-personal-data{
+        flex-direction: column;
+    }
+
+    .application-form-block > :nth-child(1){
+        text-transform: none;
+        margin: 0;
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 1.4;
+    }
+}

@@ -1,0 +1,17 @@
+.btn-portfolio {
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 30px;
+    background-color: #111179;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-portfolio:hover {
+    background-color: #222294;
+}
+
+.btn-portfolio:active {
+    background-color: #111179;
+}

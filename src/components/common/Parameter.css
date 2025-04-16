@@ -1,0 +1,108 @@
+.parameter-pop-up-window {
+  position: relative;
+}
+
+.parameter {
+  height: 54px;
+  background: #090922;
+  border: 1px solid #0e0e37;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+  clip-path: inset(-1px round 30px);
+}
+
+.parameter::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  padding: 1px;
+  border-radius: 30px;
+  background: linear-gradient(345deg, #101038 70%, #2e2e9e 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+}
+
+.parameter.checked::before {
+  opacity: 1;
+}
+
+.parameter.hovered::before {
+  opacity: 1;
+}
+
+.parameter-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.parameter-name {
+  flex: 1;
+  text-align: left;
+  margin: 0 0 0 8px;
+}
+
+.parameter-price {
+  margin: 0;
+}
+
+.parameter-icon-ball {
+  width: 14px;
+  height: 14px;
+  background: #101038;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 8px;
+  position: relative;
+}
+
+.parameter-icon {
+  width: 4px;
+  height: 8px;
+}
+
+.tooltip-container {
+  position: absolute;
+  width: 217px;
+  top: 16px;
+  right: 0;
+  transform: translate(0, -100%);
+  z-index: 11;
+  background: linear-gradient(90deg, #101038 0%, #1e1e6f 100%);
+  border-radius: 3px;
+  padding: 10px 10px 24px 10px;
+  box-sizing: border-box;
+  clip-path: polygon(
+      0% 0%, 
+      100% 0%, 
+      100% calc(100% - 14px), 
+      83% calc(100% - 14px), 
+      88% 100%, 
+      93% calc(100% - 14px), 
+      0% calc(100% - 14px)
+  );
+}
+
+.tooltip {
+  text-align: left;
+  z-index: 10;
+  color: white;
+}
+
+.tooltip-time {
+  width: 100%;
+  display: flex;
+  text-align: right;
+  justify-content: end;
+}

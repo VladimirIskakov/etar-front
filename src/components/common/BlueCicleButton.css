@@ -1,0 +1,35 @@
+.btn-ellipse-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #222294;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-ellipse-container:hover {
+  background-color: #111179;
+}
+
+.btn-ellipse-container:active {
+  background-color: #222294;
+}
+
+.btn-ellipse-container.disabled {
+  background-color: #090918;
+  border: 1px solid #0D0D27;
+}
+
+.btn-ellipse-container.disabled img {
+  opacity: 0.5;
+}
+
+.btn-ellipse-container img:first-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}

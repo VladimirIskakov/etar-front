@@ -1,0 +1,87 @@
+.project-cost-calculation {
+  margin-top: 160px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cost-calculation-blocks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.left-block {
+  width: calc(50% - 100px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.left-subblock {
+  margin-top: 20px;
+  width: 100%;
+  height: 145px;
+}
+
+.right-block1 {
+  width: calc(50% - 100px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.total-cost-value {
+  color: white;
+  font-size: 50px;
+  font-weight: medium;
+  line-height: 140%;
+  margin-top: 10px;
+}
+
+.left-subblock-2 {
+  display: none;
+}
+
+@media (max-width: 1439px) {
+  .left-block {
+      width: calc(50% - 6px);
+  }
+
+  .right-block1 {
+      width: calc(50% - 6px);
+  }
+}
+
+@media (max-width: 767px) {
+  .project-cost-calculation {
+      margin-top: 140px;
+  }
+
+  .cost-calculation-blocks {
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .left-block {
+      align-items: center;
+      width: 100%;
+  }
+
+  .right-block1 {
+      margin-top: 12px;
+      width: 100%;
+  }
+
+  .left-subblock-1 {
+      display: none;
+  }
+
+  .left-subblock-2 {
+      display: flex;
+  }
+}

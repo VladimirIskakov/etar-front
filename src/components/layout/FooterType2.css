@@ -1,0 +1,214 @@
+.footer-type-2 {
+    width: 100%;
+    height: 233px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-type-2 .footer-de-castop-class {
+    width: 864px;
+    height: 327px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 70%);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.footer-type-2 .footer-top-block {
+    width: 100%;
+    height: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    box-sizing: border-box;
+}
+
+.footer-type-2 .footer-type-2-logo-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-type-2 .logo-container-text-custom {
+    width: 185px;
+    text-align: center;
+}
+
+.footer-type-2 .contacts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.footer-type-2 .footer-bottom-block {
+    width: 100%;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-type-2 .footer-bottom-block > p {
+    margin: 0;
+}
+
+.footer-type-2 .footer-bottom-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 150px;
+    text-align: right;
+}
+
+.footer-type-2 .footer-bottom-links > * {
+    text-align: end;
+}
+
+.footer-type-2 .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 8px;
+}
+
+.footer-type-2 .contact-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.footer-type-2-logo-style {
+    height: 51px;
+    width: 130px;
+}
+
+.footer-type-2 .logo-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-type-2 .logo-text-container > * {
+    display: flex;
+    gap: 8px;
+}
+
+.footer-type-2 .logo-background {
+    width: 30px;
+    height: 30px;
+    background-color: #222294;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-type-2 .logo-image {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-type-2 .logo-text-castom-text {
+    width: 98px;
+}
+
+@media (max-width: 1439px) {
+    .footer-type-2 {
+        height: 249px;
+    }
+
+    .footer-type-2 .footer-top-block {
+        padding: 0 20px;
+    }
+
+    .footer-type-2-logo-style {
+        height: 51px;
+        width: 130px;
+    }
+
+    .footer-type-2 .footer-bottom-links {
+        right: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-type-2 {
+        height: 335px;
+    }
+
+    .footer-type-2 .footer-bottom-block {
+        height: 110px;
+    }
+
+    .footer-type-2 .footer-top-block {
+        padding: 0 10px;
+        height: 226px;
+    }
+
+    .footer-type-2-logo-style {
+        height: 41px;
+        width: 105px;
+    }
+
+    .footer-type-2-logo-container {
+        order: 1;
+    }
+
+    .footer-type-2-contacts-container {
+        order: 2;
+    }
+
+    .logo-text-container {
+        order: 3;
+    }
+
+    .footer-type-2 .footer-bottom-links {
+        position: absolute;
+        bottom: 20%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .footer-type-2 .footer-bottom-block :nth-child(1) {
+        margin-top: -40px;
+    }
+
+    .footer-type-2 .footer-bottom-links > * {
+        display: flex;
+        justify-content: center;
+        margin-top: 4px;
+        align-items: center;
+    }
+
+    .footer-type-2 .footer-top-block {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 20px 40px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+    .footer-type-2 .footer-type-2-logo-container {
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-type-2 .footer-type-2-contacts-container {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .footer-type-2 .contact-item {
+        margin-bottom: 0;
+    }
+}
